@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body > header{
+    background-color: rgb(83, 72, 94);
+    padding: 16px 0;
+    color:#ffff ;
+}
+
+header li{
+    display: inline;
+    margin-left: 16px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header .container li a{
+color: #ffff;
+text-decoration: none;
+
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+
+.container{
+    width: 1366px;
+    margin: 0 auto 0
+}
+
+.articles{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.articles img{
+    height: 180px;
+    width: ;
+}
+
+.articles article{
+width: 30%;
+margin-bottom: 16px;
+}
+
+.articles article h3{
+margin-top: 8px;
+margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: rgb(147, 75, 211);
+    color: #ffff;
+    padding: 8px;
+    display:inline-block ;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+text-decoration: underline;
+}
+
+.creation-date{
+    color: #413d3d;
+}
+#esportes .articles article a{
+    background-color:darkgreen;
+    color: black;
+    font-weight: bold;
+}
+
+#esportes{
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#esportes h2 {
+color:darkgreen;
+}
+
+#economia .articles article a{
+    background-color: rgb(255, 191, 73);
+    color: black;
+    font-weight: bold;
+}
+
+#economia{
+background-color: rgb(255, 251, 197);
+}
+
+#economia h2 {
+color: rgb(255, 187, 0);
+}
+
+#tecnologia .articles article a{
+    background-color: rgb(96, 71, 189);
+    color: black;
+    font-weight: bold;
+}
+
+#tecnologia{
+    background-color: rgb(206, 197, 255);
+}
+#tecnologia h2 {
+color: rgb(96, 71, 189);
+}
+
+#mundo-geek .articles article a{
+    background-color:rgb(255, 68, 109);
+    color: black;
+    font-weight: bold;
+}
+
+#mundo-geek{
+    background-color: rgb(255, 197, 197);
+    }
+
+#mundo-geek h2 {
+color: rgb(255, 68, 109);
+}
+
+
+
+
